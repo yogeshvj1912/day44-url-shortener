@@ -1,0 +1,168 @@
+.courtesy
+{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+.login-body
+{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.picture-container
+{
+  width: 100%;
+ background-image: url("https://www.clickslice.co.uk/wp-content/uploads/2022/07/1_Pdw7h5X6vQQNVopIzHBG6A.jpeg");
+ background-repeat: no-repeat;
+ background-size:contain;
+}
+.menu-class
+{
+  width:21%;
+  display:flexbox;
+  
+}
+.menu-container
+{
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-end;
+}
+.menu-container > li{
+  list-style-type: none;
+}
+.menu-container >li>a:hover{
+font-size: 50px;
+color:red;
+
+}
+.menu-container > li >a{
+  text-decoration: none;
+  color:black; 
+}
+.home-body
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ 
+}.profile
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.user-icon
+{
+  width:50px;
+  height: 50px;
+}
+.home-container
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-gradient-background-background-design_509471-69.jpg?w=2000");
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center center;
+}
+.signup-container, .signin-container,.forgot-container,.reset-container
+{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(255, 79, 39);
+}
+.signin-content,.signup-content,.forgot-content, .reset-content
+{
+  display: flex;
+  flex-direction:row;
+}
+.signup-body > #signupid, #resetid{
+ width: 50%;
+ height: 60vh;
+ 
+}
+#forgotid
+{
+width: 60%;
+height: 65vh;
+}
+.signin-body,.signup-body,.forgot-body,.reset-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+ height: 90vh;
+ 
+}
+.signin-body > .card {
+   background-color: whitesmoke;
+   box-shadow: 0px 10px 10px black;  
+  }
+.signin-body > .card >.card-body
+{
+  display:grid;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 50px 50px 50px 50px;
+  align-items: center;
+  
+}
+.reset-body > .card {
+  background: transparent;
+}
+.signup-body > .card {
+  width: 50%;
+  height: 50vh;
+  box-shadow: 0px 10px 15px black;
+  background-color: white;
+}
+
+.signup-body > .card >.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.forgot-body >.card {
+  width: 35%;
+  height: 20vh;
+  background-color: whitesmoke;
+  box-shadow: 0px 10px 10px black;
+}
+.forgot-body >.card >.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.btnDiv
+{
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.formclass
+{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.signupheading{
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
