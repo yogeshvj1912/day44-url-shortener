@@ -53,7 +53,7 @@ export default function Signup()
   };
   function postData(email,password,username)
   {
-    axios.post('http://localhost:8000/createUsers', {"username":username, "useremail":email,"password":password }, { headers: { 'Content-Type': 'application/json' } })
+    axios.post('https://url-shortener-lx4d.onrender.com/createUsers', {"username":username, "useremail":email,"password":password }, { headers: { 'Content-Type': 'application/json' } })
             .then((response) => {
                 const { data,status } = response;
                

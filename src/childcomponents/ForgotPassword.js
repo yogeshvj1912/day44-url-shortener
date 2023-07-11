@@ -8,7 +8,7 @@ export default function ForgotPassword()
   const navigate=useNavigate();
 function handleReset()
 {
-  axios.post('http://localhost:8000/requestPasswordReset', { "useremail":email}, { headers: { 'Content-Type': 'application/json' } })
+  axios.post('https://url-shortener-lx4d.onrender.com/requestPasswordReset', { "useremail":email}, { headers: { 'Content-Type': 'application/json' } })
         .then((response) => {
             const { status } = response;
             

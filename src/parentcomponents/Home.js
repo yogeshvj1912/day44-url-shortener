@@ -24,7 +24,7 @@ export default function Home()
       // setShort(shortUrl);
         alert('Short Url generated successfully!!!')
       // Make a separate API call to store the data in MongoDB
-      axios.post('http://localhost:8000/shortUrl', { "useremail":useremail,"shortenedUrl":shortUrl }, { headers: { 'Content-Type': 'application/json' } })
+      axios.post('https://url-shortener-lx4d.onrender.com/shortUrl', { "useremail":useremail,"shortenedUrl":shortUrl }, { headers: { 'Content-Type': 'application/json' } })
       .then((response) => {
         const { status } = response;
         
@@ -62,7 +62,7 @@ export default function Home()
   function displaygeneratedUrl()
   {
     
-    axios.get(`http://localhost:8000/viewshortUrl/${useremail}`)
+    axios.get(`https://url-shortener-lx4d.onrender.com/viewshortUrl/${useremail}`)
     .then((res )=>{
   
       setArray(res.data)

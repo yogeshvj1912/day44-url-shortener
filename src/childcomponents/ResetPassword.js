@@ -11,7 +11,7 @@ export  default function Resetpassword()
     function updatePassword()
     {
        
-        axios.post('http://localhost:8000/reset-password', {"useremail":emailId,"resetToken":token,"newPassword":newPassword }, { headers: { 'Content-Type': 'application/json' } })
+        axios.post('https://url-shortener-lx4d.onrender.com/reset-password', {"useremail":emailId,"resetToken":token,"newPassword":newPassword }, { headers: { 'Content-Type': 'application/json' } })
         .then((response) => {
             const { status } = response;
            
